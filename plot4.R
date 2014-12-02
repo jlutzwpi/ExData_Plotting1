@@ -42,7 +42,8 @@ points(data$Sub_metering_2, type="l", lty="solid", col="red")
 points(data$Sub_metering_3, type="l", lty="solid", col="blue")
 #create a legend
 leg.txt <- c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3")
-legend("topright",  lty=c(1,1,1), col=c("black", "red","blue"), leg.txt)
+legend("topright",  lty=c(1,1,1), col=c("black", "red","blue"), leg.txt, bty="n",
+       cex=0.9)
 #set the x axis to display the days at the start, midpoint, and end
 axis(1, at=c(0, len/2, len), labels=c("Thu", "Fri", "Sat"))
 #set y axis
