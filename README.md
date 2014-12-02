@@ -1,3 +1,7 @@
+##Note!
+
+I did not inlude the zip file or the extracted txt file with this code.  If you want to run the code (although you are not supposed to), ensure the text file is in the same directory as the R files.  Each R file can run independently.  The rest of the text below is what was in the forked README file.  Enjoy!
+
 ## Introduction
 
 This assignment uses data from
